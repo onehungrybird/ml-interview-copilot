@@ -15,7 +15,8 @@ class Settings(BaseSettings):
     SUPABASE_URL: str = "https://gjvwiswzzyotwydvzpjv.supabase.co"
     SUPABASE_KEY: str = "sb_publishable_p1qfg8zttbkUh8ZlUP2Jhw_9sh0EIqn"
     SUPABASE_SERVICE_KEY: str ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdqdndpc3d6enlvdHd5ZHZ6cGp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQyMDAyMDksImV4cCI6MjA4OTc3NjIwOX0.7AHpnW_dcq7GdOW-tHHeKfLPteKMEsYkudYxOHWW4tQ"
-    
+    FRONTEND_URL: str = "http://localhost:3000"
+
     # Security
     SECRET_KEY: str = "change-this-in-production"
     
