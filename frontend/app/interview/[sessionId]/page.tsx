@@ -127,7 +127,7 @@ export default function InterviewPage({ params }: { params: Promise<{ sessionId:
         </button>
       </div>
 
-      <div className="max-w-2xl mx-auto px-6 py-10">
+      <div className="max-w-4xl mx-auto px-6 py-10">
 
         {/* Question */}
         {question && (
@@ -148,7 +148,7 @@ export default function InterviewPage({ params }: { params: Promise<{ sessionId:
             </div>
 
             {/* Question text */}
-            <h2 className="text-xl font-medium text-white leading-relaxed">
+            <h2 className="text-2xl font-semibold text-white leading-relaxed">
               {question.question_text}
             </h2>
           </div>
@@ -167,7 +167,7 @@ export default function InterviewPage({ params }: { params: Promise<{ sessionId:
                 }}
                 placeholder="Walk through your approach clearly. Cover architecture, tradeoffs, real-world constraints. Vague answers score 1–3."
                 rows={9}
-                className="w-full bg-[#0d0d0d] border border-[#1f1f1f] focus:border-[#2f2f2f] rounded-2xl px-5 py-4 text-sm text-white placeholder-[#2a2a2a] focus:outline-none transition-colors resize-none leading-relaxed font-[family-name:var(--font-mono)]"
+                className="w-full bg-[#0d0d0d] border border-[#1f1f1f] focus:border-[#2f2f2f] rounded-2xl px-5 py-4 text-sm text-white placeholder-[#3a3a3a] focus:outline-none transition-colors resize-none leading-relaxed font-[family-name:var(--font-mono)]"
               />
               <div className="absolute bottom-4 right-4 text-xs text-[#2a2a2a] font-[family-name:var(--font-mono)]">
                 {answer.length < 50 ? (

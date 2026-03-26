@@ -5,16 +5,16 @@ import { useRouter } from "next/navigation";
 import { api } from "@/lib/api";
 
 const CATEGORIES = [
-  { value: "system_design", label: "System Design", desc: "End-to-end ML architecture" },
-  { value: "ml_theory", label: "ML Theory", desc: "Concepts, math, algorithms" },
-  { value: "mlops", label: "MLOps", desc: "Deployment, monitoring, infra" },
-  { value: "case_study", label: "Case Study", desc: "Business problem solving" },
+  { value: "system_design", label: "🏗️ ML System Design", desc: "End-to-end ML architecture" },
+  { value: "ml_theory", label: "🧠 ML Theory", desc: "Concepts, math, algorithms" },
+  { value: "mlops", label: "⚙️ MLOps", desc: "Deployment, monitoring, infra" },
+  { value: "case_study", label: "📊 Case Study", desc: "Business problem solving" },
 ];
 
 const DIFFICULTIES = [
-  { value: "easy", label: "Easy", color: "#22c55e" },
-  { value: "medium", label: "Medium", color: "#eab308" },
-  { value: "hard", label: "Hard", color: "#ef4444" },
+  { value: "easy", label: "Easy", style: "border-green-400 text-green-300 bg-green-500/10" },
+  { value: "medium", label: "Medium", style: "border-yellow-400 text-yellow-300 bg-yellow-500/10" },
+  { value: "hard", label: "Hard", style: "border-red-400 text-red-300 bg-red-500/10" },
 ];
 
 export default function Home() {
