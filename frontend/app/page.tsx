@@ -123,7 +123,7 @@ export default function Home() {
                       ? "border-[#2a2a2a] bg-[#1a1a1a]"
                       : "border-[#1a1a1a] bg-[#141414] text-[#444] hover:text-[#666] hover:border-[#252525]"
                   }`}
-                  style={difficulty === d.value ? { color: d.color } : {}}
+                  // style={difficulty === d.value ? { color: d.color } : {}}
                 >
                   {d.label}
                 </button>
